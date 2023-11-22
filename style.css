@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background: #161c4bf0;
+    color: #a4a4a4b9;
+}
+
+.headerContainer{
+    width: 100%;
+    height: 100px;
+
+    /* background-color: #fff; */
+    display: flex;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.leftHead{
+    margin-left: 20px;
+    width: 25%;
+    height: 100%;
+    background-color: #313867;
+    padding: 15px;
+    Color: #e4b2e4;
+    font-style: italic;
+}
+
+.fa-globe{
+    color: #e4b2e4;
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+
+.centerHead{
+    margin-left: 20px;
+    width: 60%;
+    height: 100px;
+    /* background-color: #a2a7c3; */
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 30px 20px;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    position: relative;
+}
+
+nav ul li a:hover{
+    color: #e4b2e4;
+}
+
+/* nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition:0.5s;
+} */
+
+
+.rightHead{
+    margin-left: 20px;
+    width: 15%;
+    height: 100%;
+    background-color: rgb(104, 176, 238);
+}
+
+.welcomeContainer{
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 95%;
+    height: 100vh;
+    background-color: #a2a7c3;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.welcomeLeft{
+    width: 45%;
+    height: 99%;
+    background-color: black;;
+    border-radius: 10px;
+}
+
+.welcomeRight{
+    width: 45%;
+    height: 99%;
+    background-color: rgb(255, 0, 0);
+    border-radius: 10px;
+}
+
+.aboutSection{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(116, 46, 46);
+    padding: 15px;
+}
+
+.aboutNav{
+    width: 75%;
+    height: 100px;
+    background-color: #e8a3a3;
+    margin: 0 auto;
+}
+
+.aboutBody{
+    margin: 0 auto;
+    margin-top: 30px;
+    height: 75%;
+    width: 70%;
+    background-color: rgb(240, 133, 133);
+}
+
+.contactSection{
+    width: 95%;
+    height: 100vh;
+    background-color: aquamarine;
+    margin: 0 auto;
+}
+
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    display: flex;
+}
+
